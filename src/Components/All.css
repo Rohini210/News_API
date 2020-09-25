@@ -1,0 +1,131 @@
+/* For App Component */
+
+body {
+    background-color: rgb(231, 226, 226);
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100fr 200fr 200fr;
+    justify-items: stretch;
+}
+
+
+/* .fr {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.sec {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.third {
+    height: 100%;
+    background-color: whitesmoke;
+} */
+
+
+/* .main {
+    display: flex;
+    flex-direction: row;
+} */
+
+.b1 {
+    border: none;
+    height: 3em;
+    margin-left: 0.4em;
+    padding-left: 5.5em;
+    padding-right: 5.5em;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* .DataLinks {
+    width: 15%;
+    margin-left: 0.4em;
+} */
+
+.newsList {
+    margin: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.anchor {
+    background-color: rgb(44, 41, 41);
+    color: white;
+    text-decoration: none;
+    padding-right: 0.8px;
+    padding-bottom: 1.9px;
+    padding-top: 1.9px;
+}
+
+.anchor:hover {
+    background-color: grey;
+}
+
+
+/* .news {
+    margin-left: 1em;
+    width: 35%;
+    background-color: rgb(240, 214, 191);
+} */
+
+.sp {
+    height: 3em;
+    padding-bottom: 1.3em;
+    padding-left: 12em;
+    padding-right: 12em;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sp_n {
+    margin-left: 0.4em;
+    height: 3em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    padding-top: 0.65em;
+    padding-left: 21em;
+    padding-right: 21em;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.d1 {
+    width: 90%;
+    height: 15em;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+    border: 2px solid rgb(3, 3, 46);
+}
+
+.d2 {
+    margin-left: 15em;
+    width: 10em;
+    height: 10em;
+}
+
+.im {
+    width: 10em;
+    height: 10em;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.checked {
+    color: orange;
+    margin-left: 1em;
+}
+
+.card {
+    width: "20rem";
+    height: "20rem";
+    word-wrap: "break-word";
+    overflow: hidden;
+}
